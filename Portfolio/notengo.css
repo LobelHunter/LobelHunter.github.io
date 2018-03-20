@@ -1,0 +1,249 @@
+html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+
+body{
+	margin: 0;
+ 	margin-bottom: 40px;
+	width: 100%;
+	height: 100%;
+	background-image: url("b80.jpg");
+	background-size:cover;
+	font-size: 2vw;
+
+}
+
+#bienvenido{
+	margin-top:300px;
+
+}
+
+
+#contenido{
+	width: auto;
+	height: 100%
+	float: left;
+	margin-top: auto;
+	margin-right: 500px;
+	margin-left: 500px;
+}
+
+
+
+#ANELpage{
+	height: 300px;
+	width: auto;
+	display: flex;
+	text-align: right;
+	margin-right: 20%;
+	
+}
+#ANELpage img{
+	display: flex;
+	vertical-align: center;
+	margin: auto;
+	margin-left: 10%;
+	margin-top: 25px;
+} 
+
+
+
+#DDMApage{
+	height: 300px;
+	width: auto;
+	display: flex;
+	text-align: right;
+	margin-right: 20%;
+}
+
+#DDMApage img{
+	display: flex;
+	vertical-align: center;
+	margin: auto;
+	margin-left: 10%;
+	margin-top: 25px;
+} 
+
+
+#CIACpage{
+	height: 300px;
+	width: auto;
+	display: flex;
+	text-align: right;
+	margin-right: 20%;
+}
+
+#CIACpage img{
+	display: flex;
+	vertical-align: center;
+	margin: auto;
+	margin-top: 25px;
+	margin-left: 7%;
+} 
+
+#RPMIpage{
+	height: 300px;
+	width: auto;
+	display: flex;
+	text-align: right;
+	margin-right: 20%;
+}
+
+#RPMIpage img{
+	display: flex;
+	vertical-align: center;
+	margin: auto;
+	margin-left: 10%;
+	
+} 
+
+
+body p{
+	color: red;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	
+
+}
+#contenido p{
+		color: red;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration: underline blue;
+
+}
+
+
+
+
+#encabezado1{
+	position:absolute; 
+	top:1px;  
+	width:100%; 
+	height:20%; 
+	visibility:visible;
+	z-index: 1;
+	padding: 0px;
+	background: red;
+
+}
+
+#encabezado1 img{
+	width: 100%;
+	height: 100%;
+}
+
+#encabezado2{
+	 position:absolute;
+	 top:90px;
+ 	 left:15px;
+  	 width:60px;
+	 height:60px;
+ 	 visibility:visible;
+ 	 z-index:2;
+
+ 	 
+}
+#encabezado2 img{
+	width: 100%;
+	height: 100%;
+}
+
+
+#base{
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: solid red 5px;
+	margin: auto;
+
+}
+
+footer{
+
+	width:300px;
+	height:60px;
+	margin: auto;
+    left: 45%;
+    display: flex;
+    justify-content: space-around;
+
+   
+	
+
+
+}
+
+
+
+
+#Entrada{
+ 
+  margin: auto; /* Center the item vertically & horizontally */
+  position: absolute; /* Break it out of the regular flow */
+  top: 40%; left: 0; bottom: 40%; right: 0; /* Set the bounds in which to center it, relative to its parent/container */
+  display: flex;
+  justify-content: center;
+}
+
+#Entrada img{
+	width: 100%;
+	color: white;
+}
+
+
+#pie{
+
+}
+
+
+#entradaabajo{
+
+ 	
+	width:1024px;
+	height:100px;
+	position: absolute;
+	font-size: 15px;
+    bottom:5px;
+    left: 30%;
+
+}
+
+#imagenessubpaginas{
+	position: absolute;
+	margin-top: 300px;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+#imagenessubpaginas img{
+	margin-top: 300px;
+}
+
+#imagenesrpmi{
+	margin-bottom: 20px;
+	margin-top: 600px;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+#videosanel{
+	position: absolute;
+	left: 30%;
+	top:2200px;
+	margin-top: 20px;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
